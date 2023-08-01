@@ -1,0 +1,424 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+  background-color: #fc7300;
+}
+.titulo {
+  font-family: "Belanosima";
+  font-size: 50px;
+  color: #eff5f5;
+  text-shadow: 2px 2px #181823;
+  margin-right: 70px;
+}
+.secciones {
+  font-size: 26px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #181823;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding-top: 25px;
+}
+.listassecciones {
+  padding: 3px;
+  transition: background-color 300ms ease-in;
+}
+.listasecciones:hover {
+  background-color: #b8590b;
+  border-radius: 30px;
+  padding: 2px;
+  transition: background-color 300ms ease-in;
+}
+.anchorlistas {
+  padding: 5px;
+}
+body {
+  background-color: #eff5f5;
+}
+.quienes-somos {
+  margin-top: 20px;
+  width: 100%;
+}
+.tituloprimersection {
+  font-family: "Poppins";
+  font-size: 35px;
+  display: flex;
+  text-decoration: underline;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #00425a;
+}
+.fachadayparrafo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 30px;
+}
+.contenedor-parrafoqs{
+  width:50%;
+}
+.parrafoqs {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 60px;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.fachadauntref {
+  width: 50%;
+  object-fit: cover;
+}
+.untref-school {
+  color: #fc7300;
+}
+.porque-elegirnos {
+  margin-top: 20px;
+  width: 100%;
+}
+.titulosegundosection {
+  font-family: "Poppins";
+  font-size: 35px;
+  text-decoration: underline;
+  margin-left: 240px;
+  margin-bottom: 10px;
+  color: #00425a;
+}
+.imagensalon {
+  width: 45%;
+  height: 45%;
+  margin-top: 55px;
+}
+.salonyparrafo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  padding-inline: 30px;
+  gap: 40px;
+}
+.razonesparaelegirnos {
+  list-style: none;
+  gap: 0;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.listaderazones {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Poppins";
+  color: #b8590b;
+}
+.textorazones {
+  color: #181823;
+}
+.propuestas-educativas {
+  width: 100%;
+  margin-block: 100px;
+}
+.titulopropuestas {
+  font-family: "Poppins";
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: #00425a;
+}
+.contenedorpropuestas {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.propuestas {
+  display: flex;
+  width: 95%;
+  gap: 55px;
+}
+.listadepropuestas {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #b8590b;
+}
+.textopropuestas {
+  color: #181823;
+}
+
+.ultimas-noticias {
+  margin-top: 20px;
+  width: 100%;
+}
+.tituloultimasnotis {
+  font-family: "Poppins";
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  color: #00425a;
+  margin-bottom: 20px;
+}
+.noticias {
+  margin-inline: 70px;
+}
+.ulnoticias {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+}
+.listaultimasnotis {
+  width: 40%;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-align: center;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 300px;
+}
+.tituloredes {
+  margin-left: 10px;
+  font-family: "Belanosima";
+}
+.instagram {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+.linkig {
+  display: flex;
+  gap: 5px;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 15px;
+}
+.imagenig {
+  width: 20px;
+}
+.twitter {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+.imagentw {
+  width: 25px;
+}
+.linktw {
+  display: flex;
+  gap: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+}
+.facebook {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+.imagenface {
+  width: 20px;
+}
+.linkface {
+  display: flex;
+  gap: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+}
+.ubicacionescuela {
+  margin-bottom: 20px;
+}
+.tituloubicacion {
+  font-family: "Belanosima";
+  text-align: center;
+  margin-bottom: 20px;
+}
+.titulocontacto {
+  font-family: "Belanosima";
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mail {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+.telefono {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.whatsapp {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+}
+#contenedor-formulario {
+  margin-top: 200px;
+}
+#botton span {
+  width: 100%;
+}
+@media (max-width: 1024px){
+  .navbar{
+    flex-direction: column;
+  }
+  .titulo{
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor-secciones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .secciones{
+    width: 95%;
+  }
+  .tituloprimersection{
+    margin-right: 0;
+    justify-content: center;
+  }
+  .fachadayparrafo{
+    flex-direction: column;
+  }
+  .fachadauntref{
+    width: 100%;
+  }
+  .parrafoqs{
+    text-align:center;
+    margin-right: 0;
+    width: 90%;
+  }
+  .contenedor-parrafoqs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulosegundosection{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .salonyparrafo{
+    flex-direction: column;
+  }
+  .imagensalon{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .titulo {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+  .secciones {
+    flex-direction: column;
+    text-align: center;
+  }
+  .anchorlistas {
+    font-size: 22px;
+  }
+  .tituloprimersection {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .fachadayparrafo {
+    flex-direction: column;
+    padding-inline: 0;
+  }
+  .fachadauntref {
+    padding-inline: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .parrafoqs {
+    width: 100%;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: start;
+    padding-inline: 30px;
+  }
+  .titulosegundosection {
+    margin-left: 0;
+    text-align: center;
+  }
+  .salonyparrafo {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 0;
+  }
+  .listarazones {
+    margin-left: 5px;
+  }
+  .listaderazones {
+    font-size: 18px;
+  }
+  .imagensalon {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propuestas-educativas {
+    margin-block: 50px;
+  }
+  .propuestas {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .ulnoticias {
+    flex-direction: column;
+  }
+  .listaultimasnotis {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .redes-sociales {
+    margin-bottom: 10px;
+  }
+  .link-redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .instagram {
+    display: block;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .twitter {
+    display: block;
+    margin-top: 0px;
+  }
+  .facebook {
+    display: block;
+    margin-top: 0px;
+  }
+}
